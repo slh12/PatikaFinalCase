@@ -32,4 +32,4 @@ Seçilen ürünün doğru olarak eklendiği ‘Sepetim’ sayfasında doğrulanm
  İlgili sayfalarda yer alan Webelement'ler ve testlerimizde kullandığımız test metodları Pages klasöründe yer almaktadır.
  Test dataları configuration.properties dosyasında driver ile ilgili kodlar ise utilities klasörü altındaki "Driver" class'ında yer almaktadır.
 
- Daha sonra raporlama işlemleri eklenecektir.
+ Raporlama işlemleri daha sonra eklenecektir.
