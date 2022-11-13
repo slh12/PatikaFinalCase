@@ -23,13 +23,19 @@ Seçilen ürünün doğru olarak eklendiği ‘Sepetim’ sayfasında doğrulanm
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  Projede Java, Selenium, TestNG ve Page Object Model kullanılmıştır. 
+ 
  Testlerimiz "HepsiburadaTest" class'ında yer almaktadır. 
+ 
  Yukarıdaki Test case'de görüleceği gibi hem kullanıcı girişli hem de kullanıcı girişi olmadan test yapılmıştır.
+ 
  Her iki test "HepsiburadaTest" class'ında,  "loginliTest()" ve "loginsizTest()" şeklinde iki farklı metod ile ifade edilmiştir. Çalıştırmak istediğiniz teste
  göre seçim yapabilirsiniz.
+ 
  Eğer login testinde mail adresinden kaynaklı bir sıkıntı olursa "configuration.properties" dosyasından kendi belirlediğimiz başka email adresleriyle 
  test tekrarlanabilir.
+ 
  İlgili sayfalarda yer alan Webelement'ler ve testlerimizde kullandığımız test metodları Pages klasöründe yer almaktadır.
+ 
  Test dataları configuration.properties dosyasında driver ile ilgili kodlar ise utilities klasörü altındaki "Driver" class'ında yer almaktadır.
-
+ 
  Raporlama işlemleri daha sonra eklenecektir.
